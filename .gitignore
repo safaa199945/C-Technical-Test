@@ -201,5 +201,8 @@ Thumbs.db #thumbnail cache on Windows
 # profiling data
 .prof
 
+# project 
+pedaling_mgt/pedaling_speed
+pedaling_mgt/pedaling_speed.*
 
 # End of https://www.toptal.com/developers/gitignore/api/c,python
