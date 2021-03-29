@@ -8,7 +8,7 @@
 
 static uint32_t timestamp = 0;
 
-static const uint32_t time_sleep[NUMBER_SAMPLE_TIME] = {
+static const uint32_t timestamp_array[NUMBER_SAMPLE_TIME] = {
     100000,
     89285,
     80645,
@@ -26,7 +26,7 @@ static const uint32_t time_sleep[NUMBER_SAMPLE_TIME] = {
 void update_timestamp(void)
 {
     static uint8_t index = 0;
-    timestamp = time_sleep[index];
+    timestamp = timestamp_array[index];
 
     // Update index
     index++;
