@@ -16,7 +16,7 @@ float get_average_pedaling_speed(void)
     /* YOUR CODE END */
 }
 
-void gpio_interrupt(void)
+void new_magnet_cb(void)
 {
     /* YOUR CODE BEGIN */
 

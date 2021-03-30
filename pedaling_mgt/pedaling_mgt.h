@@ -12,8 +12,8 @@ float get_pedaling_speed(void);
 float get_average_pedaling_speed(void);
 
 /**
- * @brief Callback interrupt GPIO pedaling sensor
+ * @brief Callback when a magnet passes in front of the pedaling sensor
  */
-void gpio_interrupt(void);
+void new_magnet_cb(void);
 
 #endif
