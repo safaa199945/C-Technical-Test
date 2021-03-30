@@ -4,7 +4,7 @@
 #include "pedaling_mgt.h"
 #include "time_mgt.h"
 
-#define NUMBER_OF_INTERRUPTION 60
+#define NUMBER_OF_INTERRUPTION 30
 
 int main(void)
 {
