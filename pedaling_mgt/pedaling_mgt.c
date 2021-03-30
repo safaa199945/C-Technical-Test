@@ -2,23 +2,23 @@
 
 float get_pedaling_speed(void)
 {
-    /* USER CODE BEGIN */
+    /* YOUR CODE BEGIN */
 
     return 0.;
-    /* USER CODE END */
+    /* YOUR CODE END */
 }
 
 float get_average_pedaling_speed(void)
 {
-    /* USER CODE BEGIN */
+    /* YOUR CODE BEGIN */
 
     return 0.;
-    /* USER CODE END */
+    /* YOUR CODE END */
 }
 
 void gpio_interrupt(void)
 {
-    /* USER CODE BEGIN */
+    /* YOUR CODE BEGIN */
 
-    /* USER CODE END */
+    /* YOUR CODE END */
 }
