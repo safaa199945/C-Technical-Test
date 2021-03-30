@@ -1,4 +1,6 @@
 #include "pedaling_mgt.h"
+#include "time_mgt.h"
+#include <stdio.h>
 
 float get_pedaling_speed(void)
 {
