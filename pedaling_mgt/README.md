@@ -8,10 +8,6 @@ It is given by a [12 magnets PAS sensor](https://www.amazon.fr/Magnets-Electric-
 Our algorithms require knowledge of the current pedaling speed, as well as the average pedaling speed over the last pedal revolution.
 
 ## Problem statement  
-Please develop a C module (pedaling_mgt) providing 3 public functions:
-- float get_pedaling_speed(void)
-- float get_average_pedaling_speed(void)
-- void gpio_interrupt(void)
+Please implement the 3 public functions of the C module `pedaling_mgt`, as described in the header `pedaling_mgt.h`.
 
-You can assume that the following function is already implemented and your code may rely on it:
-- uint32_t get_timestamp(void)
+Your code may rely on the public function `uint32_t get_timestamp(void)` provided by the C module `time_mgt`.

@@ -21,10 +21,6 @@ int main(void)
         // Call handler interrupt
         gpio_interrupt();
 
-        /* USER CODE BEGIN */
-
-        /* USER CODE END */
-
         // Save data on CSV file
         fprintf(fp, "%2.1f,%2.1f\n", get_pedaling_speed(), get_average_pedaling_speed());
     }
