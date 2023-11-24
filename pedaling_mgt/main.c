@@ -1,10 +1,19 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <stdint.h>
+/**
+ * Copyright (c) 2019 eBikeLabs. All Rights Reserved.
+ */
+
 #include "pedaling_mgt.h"
 #include "time_mgt.h"
 
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+/**** Defines ****/
+
 #define NUMBER_OF_INTERRUPTION 30
+
+/**** MAIN ****/
 
 int main(void)
 {
